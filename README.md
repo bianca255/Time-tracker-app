@@ -60,28 +60,6 @@ time_tracker/
 └── README.md
 ```
 
-## Additional Notes
-
-### Taking Screenshots
-
-- **Android Emulator**: Press Ctrl+S or use the camera icon in the emulator toolbar
-- **iOS Simulator**: Press Cmd+S
-- **Physical Device**: Use the device's screenshot shortcut (e.g., Power + Volume Down)
-
-### Viewing Local Storage
-
-For local storage screenshots, you may need to:
-1. Enable developer options on your device
-2. Use platform-specific tools (Android Studio Device File Explorer, Xcode, etc.)
-3. Or run the app in debug mode and print storage contents to console
-
-### Troubleshooting
-
-If you encounter any issues:
-- Make sure you have Flutter installed: `flutter doctor`
-- Clear app data if needed to reset storage: `flutter clean`
-- Reinstall dependencies: `flutter pub get`
-
 ## Dependencies
 
 - `shared_preferences: ^2.2.2` - Local storage
